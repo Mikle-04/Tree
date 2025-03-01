@@ -54,24 +54,4 @@
    ```bash
    git clone <URL-репозитория>
    cd Three
-  
-## Структура проекта
 
-Three/
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/example/three/
-│   │   │   │   ├── data/         # Слой данных
-│   │   │   │   │   ├── Node.kt
-│   │   │   │   │   ├── NodeDao.kt
-│   │   │   │   │   ├── AppDatabase.kt
-│   │   │   │   │   └── NodeRepository.kt
-│   │   │   │   ├── presentation/ # UI и ViewModel
-│   │   │   │   │   ├── TreeViewModel.kt
-│   │   │   │   │   └── NodeScreen.kt
-│   │   │   │   └── MainActivity.kt
-│   │   │   └── res/             # Ресурсы (макеты и т.д.)
-│   └── build.gradle.kts         # Скрипт сборки модуля
-├── build.gradle.kts             # Скрипт сборки проекта
-└── README.md                    # Этот файл
